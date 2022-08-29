@@ -29,7 +29,6 @@ h1,h2,h3 {
     height: 50px;
     font-weight: 500;
     background-color: rgb(203, 35, 35);
-    display: inline-block;
     min-width: 200px;
     padding: 0px 15px;
 }
