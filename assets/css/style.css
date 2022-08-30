@@ -31,13 +31,18 @@ h1,h2,h3 {
     background-color: rgb(203, 35, 35);
     min-width: 200px;
     padding: 0px 15px;
+    transition: background-color .2s ease;
 }
 
+.btn:hover {
+    background-color: rgb(255, 0, 0);
+}
 .header {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 3;
 }
 
 .header__wrapper {
@@ -120,13 +125,28 @@ h1,h2,h3 {
 /* intro start */
 
 .intro {
-    background: url('../img/intro_bg.jpg');
+    background: url('../img/intro_bg.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro::after {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;
+    content: '';
 }
 
 .intro__content{
     height: 750px;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .intro__block{
@@ -134,6 +154,7 @@ h1,h2,h3 {
 }
 
 .intro__title{
+    margin-bottom: 30px;
     font-size: 48px;
     min-width: 790px;
     font-weight: 700;
