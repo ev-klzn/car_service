@@ -346,14 +346,16 @@ p {
     background-color: #171616;
 
 }
-.container {
-}
+
 .about__wrapper {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .about__block {
-    min-width: 505px;
+    max-width: 505px;
+    text-align: justify;
 
 }
 
@@ -361,6 +363,7 @@ p {
     font-weight: 600;
     color: #b7b7b7;
     letter-spacing: 0.23em;
+    margin:35px 0 40px;
 
 }
 .about__link {
@@ -369,6 +372,15 @@ p {
     font-size: 18px;
     letter-spacing: 0.15;
     font-weight: 500;
+}
+
+
+.about__link:hover {
+text-decoration: none;
+}
+
+.about__img {
+    height: 340px;
 }
 
 
