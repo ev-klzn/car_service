@@ -583,7 +583,26 @@ text-decoration: none;
 }
 
 @media (max-width: 992px) {
-    .intro__content {
-        height: 538px;
+    .header__logo img{
+        height: 55px;
     }
+
+
+    .intro__content {
+        height: 530px;
+    }
+
+    .info__item {
+        padding: 20px;
+    }
+
+    .intro__title {
+        font-size: 34px;
+    }
+
+    .intro__block {
+        text-align: center;
+    }
+
+    
 }
