@@ -572,4 +572,18 @@ text-decoration: none;
     .info__title {
         letter-spacing: unset;
     }
+
+    .about__block {
+        padding-right: 30px;
+    }
+
+    .services__content {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .intro__content {
+        height: 538px;
+    }
 }
