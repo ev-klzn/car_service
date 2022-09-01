@@ -650,7 +650,7 @@ text-decoration: none;
     .process__item {
         text-align: center;
         min-height: auto;
-        padding: 20px 0 12px;
+        padding: 20px 20px 12px;
     }
 }
 
@@ -663,6 +663,7 @@ text-decoration: none;
     
     .info {
         transform: translateY(-75px);
+        margin-bottom: -40px;
     }
     
     .wrapper {
@@ -673,6 +674,11 @@ text-decoration: none;
         width: 100%;
         margin-bottom: 20px;
     }  
+
+    .block__link {
+        display: flex;
+        justify-content: center;
+    }
     
     .info__item {
         text-align: center;
