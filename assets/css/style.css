@@ -15,7 +15,9 @@ h1,h2,h3 {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -546,4 +548,28 @@ text-decoration: none;
 
 .footer__soc-link img {
     height: 25px;
+}
+
+/* footer end */
+
+/* media start */
+
+@media (max-width:1260px) {
+    .info__item {
+        padding: 30px;
+    }
+    
+    .info__title {
+        font-size: 16px;
+    }
+
+    .info__text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .info__title {
+        letter-spacing: unset;
+    }
 }
