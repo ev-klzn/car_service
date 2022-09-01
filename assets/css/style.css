@@ -513,3 +513,37 @@ text-decoration: none;
 }
 
 /* contacts end */
+
+/* footer start */
+
+.footer {
+
+}
+
+.footer__wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy {
+    letter-spacing: 0.15em;
+}
+
+.footer__soc {
+    display: flex;
+}
+
+.footer__soc-link {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer__soc-link:last-child {
+    margin-right: 0px;
+    text-decoration: none;
+}
+
+.footer__soc-link img {
+    height: 25px;
+}
